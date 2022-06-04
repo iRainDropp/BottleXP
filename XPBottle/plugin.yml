@@ -1,7 +1,0 @@
----
-name: XPBottle
-version: 0.0.1
-main: iRainDrop\XPBottle\Main
-api: 4.3.2
-src-namespace-prefix: iRainDrop\XPBottle
-...
