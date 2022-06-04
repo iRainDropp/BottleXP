@@ -1,0 +1,12 @@
+# Custom name given to newly created bottles. {XP} will display the amount of Experience.
+Custom Name: "§d§lXPBottle§r§7 | {XP}"
+# Lore given to newly created bottles. {XP} will display the amount of Experience & {player} will display the player that created it.
+Lore: ["§r§dValue:§r §f{XP} XP", "§r§dSigned:§r §f{player}"]
+# Message sent if the player trying to create a bottle has no XP.
+No XP: "§cYou do not have any XP."
+# Should XP Bottles be dropped on death? If this is enabled players will only drop the bottle and not any xp.
+Drop on Death: true
+# Sounds that get sent to the player when using or creating a bottle
+Sounds:
+  Use: "random.glass"
+  Creation: "random.pop"
