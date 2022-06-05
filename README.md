@@ -1,4 +1,4 @@
-# XPBottle
+# BottleXP
 A fully featured XPBottle plugin for Pocketmine-MP servers.
 
 Commands: 
