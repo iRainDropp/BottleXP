@@ -1,0 +1,7 @@
+---
+name: BottleXP
+version: 0.0.1
+main: iRainDrop\BottleXP\Main
+api: 4.3.2
+src-namespace-prefix: iRainDrop\BottleXP
+...
