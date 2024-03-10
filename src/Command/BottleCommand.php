@@ -19,6 +19,7 @@ class BottleCommand extends Command implements PluginOwned
     public function __construct(Main $plugin){
         $this->plugin = $plugin;
         parent::__construct("bottle", "Stores your XP in a Bottle.", "", ["xp", "xpbottle"]);
+        $this->setPermission("bottlexp.cmd");
     }
 
     public function execute(CommandSender $sender, string $commandLabel, array $args)
