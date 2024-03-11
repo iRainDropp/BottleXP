@@ -18,7 +18,7 @@ class PlayerListener implements Listener
 
     public function ThrowBottle(PlayerItemUseEvent $e){
         $item = $e->getItem();
-        $id = $item->getId();
+        $id = $item->getTypeId();
         if($item instanceof ExperienceBottle && $item->getNamedTag()->getTag("XP") !== null){
             $amount = $item->getNamedTag()->getInt("XP");
             $e->getPlayer()->getXpManager()->addXp($amount);
